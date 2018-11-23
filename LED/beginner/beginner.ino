@@ -2,8 +2,7 @@
  * Author : Del
  * Instructions: 
  * 1) Upload the code
- * 2) Add delay(time_taken) at line 36
- * 3) A different pattern will appear
+ * 2) increase the time taken to better see the effects.
  */
 int time_taken = 25;
 void setup() {
