@@ -7,6 +7,7 @@ Hey guys Hank here! Welcome to UoSM Robotics Club's First Workshop! If you have 
 1. Folder LED contains code for 2 types of arduino folder for LED basics such as for loops and while loops.
 2. Folder POV contains two types of Persistence of Vision.
 3. Folder Buzzer is a bonus code given by me :) just run the code and read the comments or find me if you want to know some special effects!
+4. We have also included a powerpoint in case you need some reference :smile:
 
 # Getting Started
 1. Download the zip code of this file, then extract it.
