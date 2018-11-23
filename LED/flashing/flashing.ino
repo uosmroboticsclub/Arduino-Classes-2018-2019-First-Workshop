@@ -1,3 +1,9 @@
+/*
+ * Author : Del
+ * Instructions: 
+ * 1) Upload the code
+ * 2) LEDs will flash incrementally
+ */
 int time_taken = 30;
 void setup() {
   // put your setup code here, to run once:
