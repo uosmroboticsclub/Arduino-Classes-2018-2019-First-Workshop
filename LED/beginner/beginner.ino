@@ -1,3 +1,10 @@
+/*
+ * Author : Del
+ * Instructions: 
+ * 1) Upload the code
+ * 2) Add delay(time_taken) at line 36
+ * 3) A different pattern will appear
+ */
 int time_taken = 25;
 void setup() {
   // put your setup code here, to run once:
