@@ -10,6 +10,18 @@
  * 3)shake the maker uno real quick!
  * 4) A UOSM letters will appear!
 */
+/*
+ * Author : Chia Tze Hank
+ * Instructions: 
+ * 1) Upload the code
+ * 2) At void loop, add in 
+ *    printletter(U); 
+ *    printletter(O);
+ *    printletter(S);
+ *    printletter(M);
+ * 3)shake the maker uno real quick!
+ * 4) A UOSM letters will appear!
+*/
 int NUMBER9[] = {1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 int NUMBER8[] = {0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0};
 int NUMBER7[] = {1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0};
@@ -54,6 +66,10 @@ void setup(){
   for ( int i = 2; i < 10 ; i++ )
   { pinMode(i, OUTPUT);     // 8 Led pins in total
   }
+  digitalWrite(10,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(13,LOW);
 }
 void printLetter(int letter[])
 {
