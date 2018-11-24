@@ -34,7 +34,7 @@ for (int y =2; y<14 ; y++){                  // begins turning on leds for 1 sec
   digitalWrite(y,LOW); 
 }
 
-for (int x = 14; x>2 ; x--){                              // begins turning on leds for 1 sec from pin 9 to pin 2
+for (int x = 13; x>1 ; x--){                              // begins turning on leds for 1 sec from pin 9 to pin 2
   digitalWrite(x,HIGH);
   delay(time_taken);
   digitalWrite(x,LOW);
