@@ -1,4 +1,4 @@
-# Arduino-Classes-2018-First-Workshop
+# Arduino-Classes-2018-2019-First-Workshop
 
 # Introduction :laughing:
 Hey guys Hank here! Welcome to UoSM Robotics Club's First Workshop! If you have any questions please ask!
